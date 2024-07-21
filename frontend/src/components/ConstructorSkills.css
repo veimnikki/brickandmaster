@@ -1,0 +1,35 @@
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skill {
+    background: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.skill input {
+    display: none;
+}
+
+.skill label {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.skill input:checked + label {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border-radius: 5px;
+}
+

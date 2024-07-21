@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/login_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-register-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #828282;
+    outline: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    color: #555;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.submit-button, .google-button, .register-switch-button, .role-button, .back-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.submit-button {
+    background: #007bff;
+}
+
+.google-button {
+    background: #db4437;
+}
+
+.register-switch-button, .role-button, .back-button {
+    background: #28a745;
+}
+
+.forgot-password-link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
+
+.role-selection {
+    display: flex;
+    flex-direction: column;
+}

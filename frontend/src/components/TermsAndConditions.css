@@ -1,0 +1,29 @@
+.terms-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.terms-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.terms-container p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.terms-container button {
+    background: #A9A9A9; /* Less bright, construction-related color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

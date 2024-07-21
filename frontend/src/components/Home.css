@@ -1,0 +1,22 @@
+.home {
+    text-align: center;
+    padding: 2rem;
+}
+
+.home-header {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.home-buttons button {
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+}
+
+.home-info {
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}

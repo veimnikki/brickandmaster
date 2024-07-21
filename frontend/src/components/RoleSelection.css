@@ -1,0 +1,19 @@
+.role-selection-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}

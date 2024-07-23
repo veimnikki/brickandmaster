@@ -1,4 +1,3 @@
-// src/components/ConstructorRegister.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ConstructorRegister.css';
@@ -12,8 +11,7 @@ const ConstructorRegister = () => {
 
     const handleRegister = (e) => {
         e.preventDefault();
-        // Здесь должна быть логика регистрации пользователя
-        // После успешной регистрации перенаправляем на страницу подтверждения почты
+        // Добавьте логику регистрации
         navigate('/email-confirmation');
     };
 

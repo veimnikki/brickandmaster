@@ -1,4 +1,3 @@
-// src/components/SkillSelection.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SkillSelection.css';
@@ -11,7 +10,6 @@ const skills = [
     "Установка заборов и ограждений", "Благоустройство территории", "Демонтажные работы",
     "Уборка жилых помещений", "Уборка коммерческих помещений", "Уборка строительных объектов",
     "Малярные работы", "Работы по полам", "Бетонные работы"
-    // Добавьте остальные виды работ по необходимости
 ];
 
 const SkillSelection = () => {
@@ -28,9 +26,8 @@ const SkillSelection = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Логика для сохранения выбранных навыков
         console.log('Выбранные навыки:', selectedSkills);
-        navigate('/success'); // Перенаправление на страницу успеха
+        navigate('/success');
     };
 
     return (

@@ -1,16 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './EmailConfirmation.css';
 
 const EmailConfirmation = () => {
+    const navigate = useNavigate();
+
+    const handleConfirm = () => {
+        navigate('/select-skills');
+    };
+
     return (
-        <div className="container">
-            <div className="email-confirmation-box">
-                <h2>Email Confirmation</h2>
-                <p>We have sent a confirmation link to your email address. Please check your inbox and click the link to confirm your email.</p>
-                <button className="submit-button">Resend Email</button>
-            </div>
+        <div className="confirmation-container">
+            <h1>Подтверждение почты</h1>
+            <p>Пожалуйста, проверьте свою электронную почту и подтвердите регистрацию.</p>
+            <button onClick={handleConfirm}>Я подтвердил почту</button>
         </div>
     );
-}
+};
 
 export default EmailConfirmation;

@@ -9,20 +9,20 @@ import SkillSelection from './components/SkillSelection';
 import './App.css';
 
 const App = () => {
-    return (
-        <Router>
-            <div className="App">
-                <Routes>
-                    <Route path="/" element={<Welcome />} />
-                    <Route path="/login-or-register" element={<LoginRegister />} />
-                    <Route path="/register/client" element={<ClientRegister />} />
-                    <Route path="/register/constructor" element={<ConstructorRegister />} />
-                    <Route path="/email-confirmation" element={<EmailConfirmation />} />
-                    <Route path="/select-skills" element={<SkillSelection />} />
-                </Routes>
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/login-or-register" element={<LoginRegister />} />
+          <Route path="/register/client" element={<ClientRegister />} />
+          <Route path="/register/constructor" element={<ConstructorRegister />} />
+          <Route path="/email-confirmation" element={<EmailConfirmation />} />
+          <Route path="/skill-selection" element={<SkillSelection />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

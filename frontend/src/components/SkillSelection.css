@@ -1,46 +1,28 @@
-/* src/components/SkillSelection.css */
 .skill-selection-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
-}
-
-.skill-selection-container h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    width: 100%;
-}
-
-.skill-item {
+  }
+  
+  .skill-item {
+    flex: 1 0 30%;
+  }
+  
+  .skill-item label {
     display: flex;
     align-items: center;
-    padding: 10px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.skill-item label {
-    margin-left: 10px;
-    color: #333;
-}
-
-button {
-    padding: 10px 20px;
-    margin-top: 20px;
-    border: none;
-    background: #007bff;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
+  }
+  
+  .skill-item input {
+    margin-right: 10px;
+  }
+  
